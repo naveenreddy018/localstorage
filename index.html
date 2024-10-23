@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background-color: black;
+        }
+        button{
+            padding: 4px;
+            font-size: 1rem;
+            background-color: pink;
+            color: red;
+            border-radius: 10px;
+        }
+        #maindiv{
+              background-color: #ccc;
+              height: 100%;
+              
+        }
+        .innerdiv{
+            margin: 10px;
+            background-color: #eee;
+            padding: 10px;
+            border: 2px solid red;
+        }
+        #input{
+            padding: 5px;
+            background-color:aqua;
+            color: red;
+        }
+        a{
+            text-decoration: none;
+            background-color:red;
+            padding: 8px;
+            color: white;
+        }
+      
+
+        @media screen and (max-width: 768px) {
+            .innerdiv {
+                flex: 1 1 100%; 
+            }}
+            @media screen and (max-width: 375px) {
+            body {
+                font-size: 0.8rem; 
+            }
+            button {
+                font-size: 0.9rem; 
+                padding: 3px;
+            }
+            #input {
+                font-size: 0.9rem; 
+                padding: 3px;
+                width: 80%;
+            }
+            .innerdiv {
+                padding: 5px;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+   <button id="btn1">Insert data</button>
+        <button id="btn2">Search</button>
+        <input type="text" id="input" placeholder="ENTER HERE">        <button id="btn3">Men clothing</button>
+        <button id="btn4">Jewelery</button>
+        <button id="btn5">women's clothing</button>
+        <div id="maindiv"></div>
+    <script src="./p.js">
+  
+    </script>
+</body>
+</html>
